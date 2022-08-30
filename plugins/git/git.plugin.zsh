@@ -205,6 +205,8 @@ alias ghh='git help'
 alias gignore='git update-index --assume-unchanged'
 alias gignored='git ls-files -v | grep "^[[:lower:]]"'
 alias git-svn-dcommit-push='git svn dcommit && git push github $(git_main_branch):svntrunk'
+alias gid='git rev-parse HEAD'
+alias gids='git rev-parse --short HEAD'
 
 alias gk='\gitk --all --branches &!'
 alias gke='\gitk --all $(git log -g --pretty=%h) &!'
